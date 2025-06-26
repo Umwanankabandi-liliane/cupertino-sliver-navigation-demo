@@ -1,16 +1,28 @@
-# cupertino_nav_demo
+# Cupertino Sliver Navigation Demo
 
-A new Flutter project.
+This is a Flutter demo showcasing the `CupertinoSliverNavigationBar` widget in a real-world use case: a simple recipe list app with iOS-style UI.
 
-## Getting Started
+##  How to Run
 
-This project is a starting point for a Flutter application.
+1. Clone the repo  
+2. Run these commands in your project directory:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Widget Used
+Widget: CupertinoSliverNavigationBar
+It creates a large-title, scrollable navigation bar styled like iOS.
+
+ 3 Attributes Demonstrated
+largeTitle – Displays a large, prominent title at the top (My Recipes)
+
+backgroundColor – Sets the background color of the navigation bar (CupertinoColors.systemGrey6)
+
+leading – Adds a back button using CupertinoNavigationBarBackButton
+
+##  Screenshot
+
+![App Screenshot](screenshot.png)
